@@ -1,0 +1,27 @@
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+data/generated/*
+!data/generated/.gitkeep
+
+# Generated outputs when running with default --out values.
+rt_movies*.csv
+
+# Runtime temp/lock artifacts from checkpointed CSV writes.
+*.csv.tmp
+*.csv.lock
+
+playwright-report/
+test-results/
+
+notebooks/archive/*
